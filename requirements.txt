@@ -1,0 +1,17 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+openai>=1.0
+filelock>=3.24.2
+python-dotenv>=1.0
+streamlit==1.54.0
+requests>=2.31
+pandas>=2.2
+
+# Dev tooling (git hooks)
+pre-commit>=3.7
+nbstripout>=0.7
+
+# Testing
+pytest>=8.0
+httpx>=0.26

@@ -1,0 +1,13 @@
+**/__pycache__
+**/*.pyc
+.venv/
+.git/
+.pytest_cache/
+notebooks/
+
+# Local run state/logs should be mounted as volumes, not baked into the image
+db/
+logging/
+
+# Optional large artifacts
+artifact/
